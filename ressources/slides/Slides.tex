@@ -204,5 +204,38 @@
 		\end{figure}		
 	\end{frame}
 
+	\section{Bonus : Gestion de l'historique au clavier}
+	
+	\begin{frame}{Bonus : Gestion de l'historique au clavier}
+		\begin{block}{Objectifs}
+		\begin{itemize}
+		\item Implémenter un gestionnaire d’historique au clavier (flèche du haut et du bas)
+		\item Utiliser la classe \emph{java.awt.event.KeyAdapter}
+		\end{itemize}
+		\end{block}
+		
+		\begin{exampleblock}{Implémentation}
+		\begin{itemize}
+		\item Création classe \emph{KeyBoardListener} qui hérite de \emph{KeyAdapter}
+		\item Création d'un \emph{listener} sur les événement du clavier
+		\item La méthode \emph{handleCommand()} est appelée via la touche \emph{Enter}.
+		\end{itemize}
+		\end{exampleblock}					
+	\end{frame}
+
+	\begin{frame}{Bonus : UML}
+		\begin{figure}[!h]
+		\centering
+		\includegraphics[width=0.95\textwidth]{../uml/uml-keyboard}
+		\end{figure}		
+	\end{frame}
+
+	\begin{frame}{Bonus : Un peu de code pour finir}
+		\begin{figure}[!h]
+		\centering
+		\includegraphics[width=\textwidth]{../uml/code}
+		\end{figure}		
+	\end{frame}
+
 
 \end{document} 
