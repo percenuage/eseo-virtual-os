@@ -1,2 +1,2 @@
-# virtualOS
-TP Design Pattern
+# Virtual OS
+ESEO - I3 - Design Pattern
